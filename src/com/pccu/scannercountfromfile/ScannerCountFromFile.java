@@ -11,7 +11,7 @@ public class ScannerCountFromFile {
 		Scanner scanner = null;
 		int mSum = 0;
 		int mAmount = 0;
-		String mCustomer = "";
+		   String mCustomer = "";
 		try {
 		     scanner = new Scanner(new File("src/consume.txt"));
 		     while (scanner.hasNext()) {
